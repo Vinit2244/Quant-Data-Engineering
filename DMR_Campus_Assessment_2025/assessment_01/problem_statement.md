@@ -1,10 +1,13 @@
-🧠 The Great Data Shuffle
+# 🧠 The Great Data Shuffle
 
 ## Objective
+
 You are given a dataset of time-series telemetry with misleading column names. Your task is to reverse-engineer the actual meaning of each column by analyzing patterns, relationships, and statistical clues in the data.
 
 ## Data Details
+
 You are provided with a CSV containing the following fabricated fields:
+
 - deltaX
 - gamma
 - omega
@@ -35,6 +38,7 @@ These DO NOT represent their real-world meaning. Instead they represent one of t
 
 5. (Bonus - Optional) ⭐ **Confidence Scores**
    - Include in `mapping.json` a confidence score between 0.0 and 1.0 for each guess:
+
      ```json
      {
        "deltaX": {"mapping": "open", "confidence": 0.8},
@@ -58,6 +62,7 @@ These DO NOT represent their real-world meaning. Instead they represent one of t
 ---
 
 ## Constraints
+
 - Do NOT rely on column names.
 - The dataset contains only 25% of the full data on which it will be finally evaluated. Your logic should generalize.
 - No internet access or external data allowed.
@@ -66,7 +71,9 @@ These DO NOT represent their real-world meaning. Instead they represent one of t
 ---
 
 ## Submission Format
+
 Please submit a ZIP file containing:
+
 - `mapping.json`
 - `analysis.ipynb`
 - `validate_mapping.py`
