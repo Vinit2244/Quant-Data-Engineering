@@ -1,4 +1,4 @@
-# APT Data Engineer Role Assignment - IIITH 2025
+# QUANT DATA ENGINEERING SOLUTIONS
 
 **Team Members:**
 
