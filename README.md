@@ -62,14 +62,6 @@ Financial institutions frequently undergo system migrations, vendor changes, or 
 - [`mapping.json`](the_great_data_shuffle/mapping.json) - Automated column mapping configuration
 - [`analysis.ipynb`](the_great_data_shuffle/analysis.ipynb) - Data quality analysis and validation results
 
-## Technical Stack
-
-- **Python 3.8+** - Core development language
-- **Pandas** - Data manipulation and analysis
-- **NumPy** - Numerical computations
-- **Jupyter Notebooks** - Analysis and visualization
-- **JSON** - Configuration and mapping storage
-
 ## Quantitative Finance Relevance
 
 These solutions address fundamental challenges in quant environments:
